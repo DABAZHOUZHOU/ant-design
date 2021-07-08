@@ -20,7 +20,7 @@ const { DirectoryTree } = Tree;
 
 const treeData = [
   {
-    title: 'parent 0',
+    title: '浙江省',
     key: '0-0',
     children: [
       { title: 'leaf 0-0', key: '0-0-0', isLeaf: true },
@@ -28,11 +28,15 @@ const treeData = [
     ],
   },
   {
-    title: 'parent 1',
+    title: '四川省',
     key: '0-1',
     children: [
-      { title: 'leaf 1-0', key: '0-1-0', isLeaf: true },
-      { title: 'leaf 1-1', key: '0-1-1', isLeaf: true },
+      { title: '成都市', key: '0-1-0', isLeaf: true },
+      { title: '自贡市', key: '0-1-1', isLeaf: true },
+      { title: '德阳市', key: '0-1-0', isLeaf: true },
+      { title: '广安市', key: '0-1-1', isLeaf: true },
+      { title: '南充市', key: '0-1-0', isLeaf: true },
+      { title: '雅安市', key: '0-1-1', isLeaf: true },
     ],
   },
 ];
